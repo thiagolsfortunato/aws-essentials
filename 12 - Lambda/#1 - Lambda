@@ -1,0 +1,14 @@
+Lambda:
+    :Lambda is serveless computing. Allow you run code without provisioning or managing severs. Pay only for the compute time you consume.
+
+    Princing:
+        :Free Tier use is available for Lambda.
+
+    Overview:
+        - Requests: to execute code
+        - Duration: length of time it takes the code to execute
+        - Accessing data from other AWS service/resources
+        
+    
+
+https://docs.aws.amazon.com/lambda/latest/dg/welcome.html

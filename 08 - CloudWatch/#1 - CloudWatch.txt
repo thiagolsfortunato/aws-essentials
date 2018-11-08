@@ -1,0 +1,17 @@
+CloudWatch:
+    :services that allows to monitor resources of your AWS account.
+
+
+    Pricing:
+        :Free Tier use is available for CloudWatch (Depending on Region)
+
+    Allow Configurations:
+        - Per Dashboard
+        - Datailed Monitoring for Amazon EC2 Instances
+        - Amazon CloudWatch Custon Metrics
+        - CloudWatch API Requests
+        - CloudWatch Logs
+        - CloudWatch Events/Custom Events
+
+
+https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html

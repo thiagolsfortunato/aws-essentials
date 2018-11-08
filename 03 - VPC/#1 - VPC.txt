@@ -1,0 +1,65 @@
+VPC - Virtual Private Cloud
+    :Amazon Virtual Private Cloud (Amazon VPC) enables you to launch Amazon Web Services (AWS) resources 
+    into a virtual network that you've defined. This virtual network closely resembles a traditional network 
+    that you'd operate in your own data center, with the benefits of using the scalable infrastructure of AWS. 
+
+    - Global Infrasctructure
+        - Regions:
+            : Grouping of resources locate in specific location
+            
+            - Designed to services AWS customers (or your users) that are located closest to a Regions
+            - Regions are comprised of many Avaliability Zones (AZ)
+        
+        - Avaliability Zones:
+            : Geographical isolated zones whitin a region that house AWS resources
+            
+            - Separete physical Data Centers are located
+            - Multiple AZ in each Region, provides redundance for resources in region.
+        
+        https://aws.amazon.com/pt/about-aws/global-infrastructure/
+
+    - IGW - Internet Gateway
+        : A cominate of hardware and software that provides your private network with a route to the internet.
+
+        - Only one IGW can be attached to VPC
+        - IGW can't detatched from VPC while there are active AWS resources in the VPC (RDS, EC2, S3)
+
+        https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Internet_Gateway.html
+    
+    - RT - Route Tables: 172.15.X.X/XX
+        : Contains routes, that are used to determine where network traffic is directed.
+
+        - Can have multiple active RT in a VPC
+        - Can't delete RT if it has dependencies (subnets)
+
+        https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html
+
+    - NACL - Network Access Control List
+        : Optional layer of security for your VPC that acts as a firewall for controlling traffic in and out of one or more 
+        subnets
+
+        - Rules are evaluated lowest to highest based on rule #
+        - For default Inbout/Outbound ALL traffic are ALLOWED.
+        - New NACL Inbout/Outbound ALL traffic are DENIED.
+        - A subnets can only be associate with ONE NACL as a time.
+
+        https://docs.aws.amazon.com/AmazonS3/latest/dev/acl-overview.html
+    
+    - Subnets: 172.15.30.X/XX, 172.15.35.X/XX
+        : Sub-section of network. Includes all the computers in a specific location.
+
+        - Each Subnet must be reside in one AZ
+        - Subnet must be associate with a RT
+        - Public Subnets does have access to internet
+        - Private Subnets doesn't have access to internet
+        - Default VPC already has a subnets created by default.
+
+        https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Subnets.html
+
+    - AZ - Avaliability Zones 
+        : Amazon EC2 is hosted in multiple locations world-wide. These locations are composed of regions and Availability Zones. 
+        Each region is a separate geographic area. Each region has multiple, isolated locations known as Availability Zones. 
+        Amazon EC2 provides you the ability to place resources, such as instances, and data in multiple locations. Resources 
+        aren't replicated across regions unless you do so specifically.
+
+        https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html

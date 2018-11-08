@@ -1,0 +1,18 @@
+AMI - Amazon Machine Images
+
+    : Preconfigured package required to lauch EC2 Instances, including OS, softwares packages and requireds settings
+
+    - Types of AMIS:
+
+        - Communits AMIs:
+            - Free to use
+            - Generally, with these AMI you are just selecting OS
+
+        - AWS Marketing Place:
+            - Pay to use
+            - Generally comes package with additional, licensed softwares
+
+        - My AMIs:
+            - That create yourself. 
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html

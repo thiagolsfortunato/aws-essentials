@@ -1,0 +1,30 @@
+Lambda Test
+
+Create Lambda Function:
+
+    1- Select a Lambda "blueprint" that fits your needs
+
+    2- Configure the function
+        - Give name
+        - Edit runtime (if need)
+
+    3- Lambda function Code
+        - Enter/Edit tje code you want to execute
+
+    4- Lambda Function handler and role
+        -At the very least you need to give your function a role
+
+    5- Advanced Settings
+        - Allocate memory
+        - Run Lambda inside a VPC
+        - Encrypt variables (AWS KMS - Key Manager Service)
+    
+Executing Lambda Function:
+
+    1- Select function > Test
+
+    2- Enter a "test event"
+
+    3- Save & Test
+
+https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html

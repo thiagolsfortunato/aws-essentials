@@ -1,0 +1,20 @@
+SNS - Simple Notification Service
+
+    :Service that allow automate the sending of email or text message
+
+    - Topics:
+        :labels and groups different endpoints that you send messages to.
+
+    - Subscribtions:
+        :the endpoints that a topic sends emssages to. (email address, phone number..).
+
+    - Publishers:
+        :the human/alarm/event that gives SNS the message that needs to be sent.
+
+    - Pricing:
+        :Free Tier use is available for SNS.
+
+    
+SNS: https://docs.aws.amazon.com/sns/latest/dg/welcome.html
+
+Pricing: https://aws.amazon.com/sns/pricing/

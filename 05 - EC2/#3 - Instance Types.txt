@@ -1,0 +1,25 @@
+Instance Types:
+    : Determine the hardware CPU, Memory and Storage of the your instance
+
+    - Family:
+        : A way  of categorizing instance types based on what they are optimized to do
+
+    - Types:
+        : Subcategory for each Family
+
+    - vCPUs:
+        : Number of virtual CPUs uses
+
+    - Memory (GiB):
+        : Amount of RAM instance uses
+
+    - Storage (GB):
+        : Local instance storage (HD)
+    
+    - EBS Optimized Available:
+        : Indicates is EBS-Optimized is an option
+
+    - Network Performance:
+        : Rating based on its data transfer rate
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html

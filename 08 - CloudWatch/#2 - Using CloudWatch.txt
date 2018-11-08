@@ -1,0 +1,23 @@
+CloudWatch Metrics
+
+    1- Dashboard > Create Dashboard
+    2- Select widget to the dashboard
+    3- Select metrics to add to the dashboard
+    4- Select a timer period that makes sense
+    5- Create widget
+
+CloudWatch Alarms:
+
+    1- Alarm > Create Alarm
+    2- Select a category
+    3- Explore the available metrics and select which alarm you want
+    4- Enter Name and description
+    5- Set the threshold for the alarm
+    6- Set "actions" when alarm threshold is met
+    8- Set period and statistics
+    9- Create Alarm
+
+
+
+CloudWatch Metrics - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/working_with_metrics.html
+CloudWatch Alarms - https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/AlarmThatSendsEmail.html

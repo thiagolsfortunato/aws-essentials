@@ -1,0 +1,32 @@
+S3 - Simple Storage Service
+    : Online, bulk storage service that you can access from almost any devices.
+    : Primary Storage service
+    : Storage any type of file in S3
+
+    - Bucket:
+        : Root level "Folders" you create in S3 are referred to as BUCKET.
+        : Any "subfolders" you create in a bucket is referred to as a FOLDER.
+  
+    - Objects:
+        : File stored in a bucket are referred to as OBJECTS.
+    
+    - Regions:
+        : When you create a Bucket, you must select specific Region.
+        : Best pratice is to select the region that is physically closest to you, to reduce transfer latency.
+
+    - Pricing/Cost Overview
+        
+        - Storage Cost:
+            - apply data at REST in S3
+            - Changed per GB used
+            - Price per GB varies based on region ans storage class
+
+        - Request Pricing (movind data in/out of S3):
+            - PUT, COPY, POST, LIST, DELETE, GET
+            - Lifecycle Transitions Request
+            - Data Retrieval
+            - Data Archive
+            - Data Restore
+        
+https://docs.aws.amazon.com/s3/index.html?id=docs_gateway#lang/en_us
+            

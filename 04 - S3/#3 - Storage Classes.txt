@@ -1,0 +1,36 @@
+Storage Classes 
+    : represents the "classification" assigned each Object.
+
+    - Storage Classes:
+        - Standard (Default)
+            - Designed for General, all-purpose Storage
+            - Is the default storage options
+            - 99,999999999% object durability
+            - 99,99% object availability
+            - Most expensive storage class
+
+        - RRS - Reduced Redundancy Storage
+            - Designed for non-critical, reproducicle storage class
+            - 99,99% object durability
+            - 99,99% object availability
+            - Less expensive than the Standard 
+
+        - S3-IA - Infrequent Access
+            - Designed for object that you do not access frequently, but must be immediately available when accessed.
+            - 99,999999999% object durability
+            - 99,90% object availability
+            - Less expensive than the Standard and RRS
+
+        - Glacier
+            - Designed for long-term archival storage
+            - May take several hours for objects stored in Glaicer to be retrivied
+            - 99,999999999% object durability
+            - Is the chepeast class
+
+    - Attributes Storage Classes:
+        - Storage Cost
+        - Object Availability
+        - Object Durability
+        - Frequency of Access (to the Object)
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html

@@ -1,0 +1,27 @@
+Creating ELB
+
+Basic Step:
+
+    1- EC2 > ELB
+
+    2- Create ELB > Classic ELB
+
+    3- Basic Configuration:
+        :Give a name
+
+    4- Assign Security Groups:
+        :Make sure that the security group you assign to the ELB allow traffic.
+
+    5- Configure Security Settings:
+        :Only applicable if you chose HTTPS 
+
+    6- Configure Health Checks:
+        :Select a ping protocol and ping port for the ELB
+        :Advanced Details: increase/decrease Health Checks thresholds
+
+    7- Add EC2 Instances
+        :Select EC2 Instances that you want the ELB
+
+    8- Add Tags
+    
+    9- Review & Create ELB!

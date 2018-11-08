@@ -1,0 +1,23 @@
+Basic Steps:
+
+    1 - Create Topic
+    2 - Give the topic name
+    3 - For SMS, you must enter a display name
+    4 - Create Topic!
+
+Adding Subscriptions:
+
+    1 - Select Topic
+    2 - Create Subscription
+    3 - Select protocol
+    4 - Enter the endpoint
+    5 - Create Subscription
+
+Publishing to the Topic
+
+    1 - Publish to topic
+    2 - Enter a subject and a message
+    3 - Create Publish message
+
+    
+Using: https://docs.aws.amazon.com/sns/latest/dg/welcome.html

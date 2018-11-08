@@ -1,0 +1,4 @@
+Permitions:
+    : Access policy options broadly categorized as resource-based policies and user policies.
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/s3-access-control.html

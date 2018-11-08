@@ -1,0 +1,32 @@
+Bucket
+
+    - Bucket Names must be unique across ALL of AWS.
+    - Bucket Names must be 3 to 63 characters and contains only lowcases letters
+    - Bucket Names must not be formatted as an IP Address.
+
+    - Properties Info:
+        - Bucket Level:
+            - General Info
+            - Permissions
+            - Static Web Hosting
+            - Logging
+            - Events
+            - Versioning
+            - Lifecycle
+            - Cross-Regions
+            - Tags
+            - Requesters Pays
+            - Transfer acceleration
+
+        - Folders
+            - General Info
+            - Details
+
+        - Objects
+            - General Info
+            - Details
+            - Permissions
+            - MetaData
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html
+https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingObjects.html

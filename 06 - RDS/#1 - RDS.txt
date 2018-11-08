@@ -1,0 +1,31 @@
+RDS - Relational Database Service
+
+    RDS:
+        - Amazon Aurora
+        - MySQL
+        - MariaDB
+        - PostgresSQL
+        - Oracle (server options are avaliable)
+        - SQLServer (several Microsoft options are avaliable)
+
+        Pricing:
+            - Free Tier use is available for all RDS except Aurora
+
+        Instance Class:
+            - Similar EC2 Instances types
+
+        Purchasing Terms:
+            - On Demand
+            - Reserved
+        
+    Non Relational databases:
+        - Dynamo DB
+            
+        Pricing:
+            - Free Tier use is available  
+
+Pricing: https://aws.amazon.com/rds/pricing/
+
+RDS: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Welcome.html
+
+Dynamo: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/GettingStarted.html

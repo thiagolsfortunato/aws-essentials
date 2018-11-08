@@ -1,0 +1,33 @@
+EC2 - Elastic Compute Cloud:
+    : Compute provides scalability capacity.
+
+    - SO + CPU + Local Storage (HD) + Network + Firewall + RAM = Desktop
+    - AMIS + Instance Types + EBS + IP Address + Security Grops + RAM = EC2
+
+    - Instances Purchasing Options:
+        - On-demand:
+            : Allows you to choose any instance type. 
+
+            - Most expensive 
+            - Most flexible
+            - You are only changed when instance is running.
+            - Can provision or terminte anytime.
+
+        - Reserved:
+            :  Allows you to purchase an instance for a set time period (1 of 3 years)
+
+            - Significant price discount over using on-demand
+            - Select to pay upfront, partial upfront, no upfront
+            - You own it for the selected time period and are responsible for the entire price
+
+        - Spot:
+            : Princing is a way for you to "bid" on a instance type and only pay for and use that instance 
+            when spot price is equals or below your "bid" price.
+
+            - Allow to sell unused instances, for short amounts of time, at a substantial discount
+            - Spot price are based on supply and demand in the spot 
+            - You are charged by the minute
+            - Instance is active when spot price is equal or less the your bid price
+            - automattically terminte when the spot price is greater than your bid price
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html

@@ -1,0 +1,4 @@
+Versioning:
+    : Keep multiple versions of an object in one bucket
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/ObjectVersioning.html

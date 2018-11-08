@@ -1,0 +1,13 @@
+Security Groups:
+    : Similar to NACLs that allow/deny traffic, but are instance level (not subnet level)
+    : Allow or Deny "rules" work are differents from NACLs.
+
+    - Inbouds or Outbounds Rules
+        : allow or deny traffic inside instance EC2
+
+        - ALL Inbouds are Denied
+        - ALL Outbounds are Allowed
+        - Besti Pratice is allow only traffic that is required
+
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html

@@ -1,0 +1,36 @@
+IAM - Identity and Access Management - (Security and Identity)
+
+    - What is ?
+        : Manager to access control of by regions, services..
+    
+    - 5 Steps Security Status:
+        - Delete Root Access Key - OK
+            : Delete your AWS root account access keys, because they provide unrestricted access to your AWS resources. 
+            Instead, use IAM user access keys or temporary security credentials.
+        
+        - Activate Mult Factor Access (MFA) (App, Hardward Key) - OK
+            : Activate multi-factor authentication (MFA) on your AWS root account to add another layer of protection 
+            to help keep your account secure
+
+        - Create Individual IAM - OK
+            : Create IAM users and give them only the permissions they need. Do not use your AWS root account for 
+            day-to-day interaction with AWS, because the root account provides unrestricted access to your AWS resources.
+
+        - Use Groups to Assign Permitions - OK
+            : Use IAM groups to assign permissions to your IAM users to simplify managing and auditing permissions in your 
+            account.
+        
+        - Apply an IAM password policy - OK
+            : Use a password policy to require your IAM users to create strong passwords and to rotate their passwords regularly.
+
+    - IAM Users and Policies:
+        : Allow or Denie access to specific user to specific service.
+    
+    - IAM Groups and Policies:
+        : Allow or Denie access to groups of users to specific service.
+    
+    - IAM Roles:
+        : AM roles are a secure way to grant permissions to entities that you trust.
+        
+
+https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html

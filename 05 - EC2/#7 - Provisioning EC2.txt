@@ -1,0 +1,10 @@
+Provisioning EC2:
+
+    - Select AMI
+    - Select Instance Type
+    - Add Storage
+    - Add Tag
+    - Configure Security Group
+    - Create and Download Key Pair
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html

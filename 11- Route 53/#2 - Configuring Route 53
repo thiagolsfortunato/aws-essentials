@@ -1,0 +1,18 @@
+Configuring Route 53
+
+Domain Registration:
+    
+    1- Search for and select a domain name that is available
+    2- Fill out the Contact Details page
+        :make note of the "Privacy Protection" option
+    3- Review Details & Purchase:
+    4- Complete Purchase amd wait for "domain registration process" to complete
+
+Hosted Zones & Record Sets:
+
+    1- Hosted Zones and selected the domain name just registered
+    2- Create two type A record sets for you domain that route to ELB
+    3- Create record set!
+
+Registering Domain: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html
+Routing Traffic: https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-to-elb-load-balancer.html

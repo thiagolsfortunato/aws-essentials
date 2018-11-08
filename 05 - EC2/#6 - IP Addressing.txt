@@ -1,0 +1,13 @@
+IP Addressing
+    : Public IP of instance
+
+    - Private IP:
+        - Private IP allow for instance to communicate with each other
+        - By default, ALL EC2 have a private IP
+
+    - Public IP:
+        - EC2 can be lauched with or not a public IP, depending on VPC/Subnet settings
+        - Are required when instance communicate with internet.
+
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html

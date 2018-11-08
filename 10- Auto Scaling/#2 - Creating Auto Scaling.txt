@@ -1,0 +1,22 @@
+Creating Auto Scaling
+
+Basic Steps:
+    1- Select AMI
+    2- Select an Instance Type
+    3- Create Lauch Configuration:
+        - Name
+        - Make sure a public IP
+        - Install Apache Server:
+            !# /bin/bash
+            yum update -y
+            yum install -y httpd
+            service httpd start
+    4- Select add Storage Type
+    5- Configure Security Group
+        - Make sure Select a SG that has ports open that you need
+    6- Review & Create
+
+
+
+Lauch Configuration: https://docs.aws.amazon.com/autoscaling/ec2/userguide/LaunchConfiguration.html
+Auto Scaling Group: https://docs.aws.amazon.com/autoscaling/ec2/userguide/AutoScalingGroup.html

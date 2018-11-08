@@ -1,0 +1,14 @@
+Auto Scaling
+    :Automates process of adding or remove EC2 instances based on traffic demand.
+
+    Lauch Configuration:
+        - Template used when auto scaling needs to add an additional server to your Auto Scaling Group
+
+    Auto Scaling Group:
+        - All the rules and settings that govern when EC2 server is automatically added or removed.
+    
+    Pricing:
+        - Free to use
+    
+    
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html

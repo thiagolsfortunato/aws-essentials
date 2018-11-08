@@ -1,0 +1,12 @@
+ELB - Elastic Load Balancer
+    :Distribuites traffic between EC2 instances
+
+    Pricing:
+        :Free Tier use is NOT available for ELB (Depending on Region)
+
+    Configuring:
+        - Each hour or partial hour the load balancer is running
+        - For each GB of data transfered through the load balancer
+    
+
+https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/introduction.html

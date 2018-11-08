@@ -1,0 +1,17 @@
+EBS - Elastic Block Storage
+    : Storage Volume for EC3 Instance in the same available AZ
+    : Can move to another instance EC2 (attach and dettach)
+
+    - IOPs (Input/Output Operation per Second)
+        : Amount of data that can be written to or retrieved from EBS per Second
+    
+    - SNAPSHOTS:
+        : Is Imagem of EBS that can be stored as a backup or used to create a duplicate
+
+        - Is not active EBS, can't attach or dettach to an EC2
+        - To restore, you must to create a new EBS as its template
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html
+    
+
+    

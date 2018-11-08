@@ -1,0 +1,26 @@
+Route 53
+    :Configure and Manager web domains for websites or applications you host on AWS.
+
+    - Domain Registration: 
+        :such as exemple.com
+
+    - DNS (Domain Name System) Service:
+        :exemple.com > 192.0.2.1
+
+    - Health Checking:
+        :verify that it's Reachable, Available and Functional
+
+    - Pricing:
+        : Free Tier is not available
+
+    - Configure:
+        1- Number of hosted zones
+        2- Traffica flow (per policy)
+        3- Standard queries
+        4- Latency based routing
+        5- Geo DNS queries
+        6- Health checks
+        7- Register/Transfer a domain
+
+
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/Welcome.html

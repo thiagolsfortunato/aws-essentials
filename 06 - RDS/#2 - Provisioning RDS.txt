@@ -1,0 +1,32 @@
+Provisioning:
+
+Basic Steps:
+    1- Create DB Subnet Group
+    2- Select Private Subnets
+
+Configure RDS:
+    1- Select Engine
+        - Free Tier > MySQL > Dev/Test Option
+    2- DB Details:
+        - Instance specifications
+        - settings
+    3- Advanced settings:
+        - Network & Security
+            - Select Private Subnet Group; dont use default
+            - Select NO for "Publicy Accessible"
+        - Database options
+        - Backup
+        - Monitoring
+        - Maintenance
+    4- Launch DB Intance
+
+Connecting:
+    1- Set connection name
+    2- Select "Standard TCP/IP Over SSH"
+    3- SSH Hostname: IP EC2
+    4- SSH Username: ec2-User
+    5- SSH Key-file: select file.pem
+    6- Myql Hostname: copy "endpoint" in RDS settings
+    7- Set Username and Password of Database
+    8- Set in EC2 > RDS-SecurityGroups > Inbound Roules > Source: 0.0.0.0/0
+    9- Test connection!
